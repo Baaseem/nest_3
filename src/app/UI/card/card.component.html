@@ -1,0 +1,17 @@
+<div class="card" style="width: 18rem;">
+
+
+<a [routerLink]="['/productview',data.id]">
+    <img src={{data.image}} class="product-image" alt="product image"></a>
+    <div class="card-body">
+      <h5 class="card-title">{{data.title}}</h5>
+      <h5 class="card-title">{{data.price}}</h5>
+      <h5 class="card-title">{{data.category}}</h5>
+      <h5 class="card-title">{{data.rate}}</h5>
+
+
+      <p class="card-text">{{data.description}}</p>
+      <a href="#" class="btn btn-primary">Go somewhere</a>
+    </div>
+
+  </div>
